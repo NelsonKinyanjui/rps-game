@@ -78,7 +78,7 @@ function playRound(playerSelection , computerSelection){
         else if(computerScore >playerScore){
             return `You lose with ${playerScore} to computer with ${computerScore}`;
         }
-        console.log(playRound(playerSelection , computerSelection));
+        console.log(i);
        
     }
  }
