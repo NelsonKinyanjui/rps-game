@@ -23,6 +23,8 @@ else if (randomNumber >= 2 / 3 && randomNumber < 1){
 let playerScore = 0;
 let computerScore = 0;
 
+function playGame(){
+
 
 function playRound(playerSelection , computerSelection){
     if (playerSelection.toLowerCase() === 'rock' && computerSelection === 'scissors' ){
@@ -68,5 +70,5 @@ function playRound(playerSelection , computerSelection){
         const playerSelection = prompt('Your choice' , '');
         const computerSelection = getComputerChoice();
 
-
+    }
   
