@@ -69,18 +69,4 @@ function playRound(playerSelection , computerSelection){
         const computerSelection = getComputerChoice();
 
 
- function playGame(){
-    for(i = 0; i < 5; i++){
-        playRound(playerSelection , computerSelection);
-        if (playerScore > computerScore){
-            return `You Win with ${playerScore} over computer with ${computerScore}`;
-        }
-        else if(computerScore >playerScore){
-            return `You lose with ${playerScore} to computer with ${computerScore}`;
-        }
-        console.log(i);
-       
-    }
- }
-
- console.log(playGame());
+  
