@@ -62,12 +62,12 @@ function playRound(playerSelection , computerSelection){
         playerScore ++;
         return `You win ${playerSelection} beats ${computerSelection}`;
     }
-    console
-   
+     
+    
 }
+        const playerSelection = prompt('Your choice' , '');
+        const computerSelection = getComputerChoice();
 
-const playerSelection = prompt('Your choice' , '');
-const computerSelection = getComputerChoice();
 
  function playGame(){
     for(i = 0; i < 5; i++){
@@ -78,5 +78,9 @@ const computerSelection = getComputerChoice();
         else if(computerScore >playerScore){
             return `You lose with ${playerScore} to computer with ${computerScore}`;
         }
+        console.log(playRound(playerSelection , computerSelection));
+       
     }
  }
+
+ console.log(playGame());
