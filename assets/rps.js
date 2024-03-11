@@ -65,4 +65,9 @@ function playRound(playerSelection , computerSelection){
    
 }
 
-const playerSelection= prompt('Your choice' , '');
+const playerSelection = prompt('Your choice' , '');
+const computerSelection = getComputerChoice();
+
+console.log(playRound(playerSelection , computerSelection));
+console.log(playerScore);
+console.log(computerScore);
